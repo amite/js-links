@@ -31,7 +31,7 @@ node_modules
 jspm_packages
 
 # Distribution
-build
+assets
 
 # Optional npm cache directory
 .npm

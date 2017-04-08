@@ -1,0 +1,35 @@
+@import './reset.pcss'
+
+
+/* custom properties */
+:root {
+  --fontSize: 1rem;
+  --mainColor: red;
+  --highlightColor: hwb(190, 35%, 20%);
+}
+
+/* custom properties set & @apply rule */
+:root {
+  --centered: {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  };
+}
+
+:root {
+  --wide: {
+    letter-spacing: 0.06em;
+  }
+}
+
+.content {
+  @apply --centered;
+  @apply --wide;
+  flex-direction: column;
+  min-height: 30vh;
+}
+
+.some {
+  letter-spacing: 0.4em;
+}

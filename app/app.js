@@ -9,10 +9,12 @@ import Home from 'views/home/home';
 
 import Header from 'components/header/header';
 
+import { content } from './styles/app.pcss'
+
 const renderApp = () => {
   ReactDOM.render((
     <Router>
-      <article id="🛳">
+      <article className={content} id="🛳">
         <Header title="Let's show some links" />
         <Route path="/" component={Home} />
       </article>

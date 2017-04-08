@@ -1,4 +1,17 @@
 {
+  "root": true,
+  "plugins": [
+    "jsx-a11y",
+    "react",
+    "import"
+  ],
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -15,6 +28,7 @@
     }
   },
   "rules": {
+    "no-console":0,
     "no-const-assign": 1,
     "no-extra-semi": 0,
     "semi": 0,
@@ -30,6 +44,11 @@
     "curly": 0,
     "eqeqeq": 0,
     "func-names": 0,
-    "valid-typeof": 1
+    "valid-typeof": 1,
+    "import/no-unresolved": [1, {"commonjs": true, "amd": true}],
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/export": 2
   }
 }

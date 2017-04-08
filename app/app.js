@@ -5,9 +5,9 @@ import {
   Route
 } from 'react-router-dom';
 
-import Home from 'views/home/home';
+import Home from './views/home/home';
 
-import Header from 'components/header/header';
+import Header from './components/header/header';
 
 import { content } from './styles/app.pcss'
 
@@ -25,7 +25,7 @@ const renderApp = () => {
 renderApp();
 
 if (module.hot) {
-  module.hot.accept('views/home/home', renderApp);
+  module.hot.accept('./views/home/home', renderApp);
 }
 
 if (process.env.NODE_ENV === 'production') {

@@ -10,18 +10,20 @@ First of all, this is a JavaScript project that's distributed on [npmjs.org](htt
 therefore uses JavaScript tooling based on [Node.js](https://nodejs.org/) with dependencies from npm.
 You're going to need to have those things installed to contribute to this project.
 
+
+
 1. Fork the repo
 2. Clone your fork
-3. Create a branch
-4. Run `npm install`
-5. Run `npm t && npm run build`. If everything works, then you're ready to make changes.
-6. Run `npm run test:watch`. See that it's watching your file system for changes.
-7. Make your changes and try to make the tests pass. If you can't or need help then commit what you have with `--no-verify` and make a PR
-8. If you get things working, add your changed files with `git add` and run `npm run commit` to get an interactive prompt for creating a commit message that follows [our standards](https://github.com/stevemao/conventional-changelog-angular/blob/master/convention.md). You'll notice that there are git hooks in place which will run testing, linting, etc. (unless you commit with `--no-verify`).
+3. Create a feature branch
+4. Run `npm install` or `yarn install`
+5. Run `npm run build`. If everything works, then you're ready to make changes.
+6. Run `npm run prod`. See that it's watching your file system for changes.
+7. If you get things working, add your changed files with `git add` and run `npm run commit` to get an interactive prompt for creating a commit message that follows [our standards](https://github.com/stevemao/conventional-changelog-angular/blob/master/convention.md). You'll notice that there are git hooks in place which will run testing, linting, etc. (unless you commit with `--no-verify`).
 9. Push your changes to your fork with `git push`
 10. Create a pull request.
 11. Iterate on the solution.
 12. Get merged! 🎉 🎊
+
 
 ## Opening issues
 Open an issue to report bugs or to propose new features.

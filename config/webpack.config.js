@@ -31,7 +31,7 @@ export default ({
 
     plugins: [
       new HtmlPlugin({
-        title: 'React Minimal',
+        title: 'JS Links',
         template: path.join(basePath, 'index.html')
       }),
 

@@ -23,6 +23,7 @@ You're going to need to have those things installed to contribute to this projec
 11. Iterate on the solution.
 12. Get merged! 🎉 🎊
 
+
 ## Opening issues
 Open an issue to report bugs or to propose new features.
 

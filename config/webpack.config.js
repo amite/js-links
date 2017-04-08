@@ -31,13 +31,13 @@ export default ({
 
     plugins: [
       new HtmlPlugin({
-          title: 'React Minimal',
-          template: path.join(basePath, 'index.html')
+        title: 'React Minimal',
+        template: path.join(basePath, 'index.html')
       }),
 
       new webpack.optimize.CommonsChunkPlugin({
-          name: 'vendor',
-          filename: '[name].js'
+        name: 'vendor',
+        filename: '[name].js'
       }),
 
       new webpack.LoaderOptionsPlugin({ options: { postcss } })

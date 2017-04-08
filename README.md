@@ -10,5 +10,5 @@
   - [ ] Add linter
   - [ ] Add webpack setup
   - [ ] Add babel for es6 setup
-- [ ] Research Ranking Algorithms ([hn](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d))
+- [ ] Research Ranking Algorithms ([hn](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)) ([issue](https://github.com/amite/js-links))
 - [ ] Launch the Alpha!

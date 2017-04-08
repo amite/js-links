@@ -66,8 +66,8 @@ You can check on http://localhost:8080
 
 - [x] Choosing and Configuring the right JS toolset
   - [x] Add Package.json
-  - [ ] Add editorconfig
-  - [ ] Add linter
+  - [x] Add editorconfig
+  - [x] Add linter
   - [x] Add webpack setup
   - [x] Add babel for es6 setup
 - [ ] Research Ranking Algorithms ([hn](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)) ([issue](https://github.com/amite/js-links))

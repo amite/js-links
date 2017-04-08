@@ -8,7 +8,9 @@ import HtmlPlugin from 'html-webpack-plugin';
 const basePath = path.join(__dirname, '..', 'app');
 const env = process.env.NODE_ENV || 'development';
 
+/* eslint-disable no-console */
 console.log('Webpack running in ' + env);
+/* eslint-enable no-console */
 
 export default ({
   plugins = [],

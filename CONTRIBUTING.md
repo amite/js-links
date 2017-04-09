@@ -2,6 +2,8 @@
 Want to contribute to **JS-Links**? Awesome!
 There are many ways you can contribute, see below.
 
+> Remember: Every new idea or change you want to make begins as a pull request. Start a pull request before you start work on a feature not after you finish the feature.
+
 ![Landing Page](/screenshots/landing-smaller.png?raw=true "JS Links Landing Page")
 
 ## Set up instructions

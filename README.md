@@ -4,6 +4,11 @@
 
 ![Landing Page](/screenshots/landing-smaller.png?raw=true "JS Links Landing Page")
 
+There are two ways to get started with JS Links. 
+
+If you just want to play around with the project, then set it up on your machine and do whatever you want with it.
+
+If you decide to contribute a feature or parts of design, you will need to fork the project and send a pull request. Detailed and easy to understand instructions are available for you [right here](https://github.com/amite/js-links/blob/develop/CONTRIBUTING.md).
 
 ## How to setup this project
 

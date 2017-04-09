@@ -21,6 +21,12 @@ We are going to us [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet
 5. Create a new branch using `git flow feature start MYFEATURE`
 6. If you get things working, add your changed files with `git add`
 7. Make sure you sync your local repo with the master and continue to recieve updates as you work on your feature. [Here is how you do this](https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository)
+
+  From your fork you run:
+  
+  - git remote add upstream https://github.com/amite/js-links.git
+  - git fetch upstream
+  - git branch --set-upstream-to=upstream/develop
 8. Push your changes to your fork with `git flow feature publish MYFEATURE`. This will push your code to your remote repo and enable the contributors to get the feature from your fork
 9. Create a pull request.
 10. Iterate on the solution.

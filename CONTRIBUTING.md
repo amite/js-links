@@ -15,12 +15,14 @@ We are going to us [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet
 1. Fork the repo
 2. Clone your fork
 3. Run `npm install` or `yarn install`
-5. Run `npm run dev`. If everything works, then you're ready to make changes. Webpack is now watching your file system for changes
-6. If you get things working, add your changed files with `git add` and run `npm run commit` to get an interactive prompt for creating a commit message that follows
-9. Push your changes to your fork with `git flow feature publish MYFEATURE`
-10. Create a pull request.
-11. Iterate on the solution.
-12. Get merged! 🎉 🎊
+4. Run `npm run dev`. If everything works, then you're ready to make changes. Webpack is now watching your file system for changes
+5. Create a new branch using `git flow feature start MYFEATURE`
+6. If you get things working, add your changed files with `git add`
+7. Make sure you sync your local repo with the master and continue to recieve updates as you work on your feature. [Here is how you do this](https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository)
+8. Push your changes to your fork with `git flow feature publish MYFEATURE`. This will push your code to your remote repo and enable the contributors to get the feature from your fork
+9. Create a pull request.
+10. Iterate on the solution.
+11. Get merged! 🎉 🎊
 
 
 ## Opening issues

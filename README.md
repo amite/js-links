@@ -73,8 +73,15 @@ You can check on http://localhost:8080
   - [x] Add Package.json
   - [x] Add editorconfig
   - [x] Add linter
-  - [x] Add webpack setup
-  - [x] Add babel for es6 setup
+  - [x] Add modular webpack setup
+  - [x] Add React
+  - [x] Add [PostCSS](https://webdesign.tutsplus.com/series/postcss-deep-dive--cms-889) support
+  - [x] Add inline svg support
+  - [x] Add webpack dev server
+  - [ ] Add Hot Module Reloading
+  - [ ] Add more prototype designs from contributors
+
+  
 - [ ] Research Ranking Algorithms ([hn](https://medium.com/hacking-and-gonzo/how-hacker-news-ranking-algorithm-works-1d9b0cf2c08d)) ([issue](https://github.com/amite/js-links))
 - [ ] Launch the Alpha!
 
